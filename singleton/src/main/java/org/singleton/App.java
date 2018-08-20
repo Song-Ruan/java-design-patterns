@@ -3,6 +3,7 @@ package org.singleton;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Supplier;
+import java.util.stream.IntStream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,10 +24,10 @@ public class App {
 			map.put(func.get().toString(), func.get().toString());
 		};
 
-		for (int i = 1; i < 100; ++i) {
+		IntStream.range(1, 5).forEach((i) -> {
 			Thread t = new Thread(r);
 			t.start();
-		}
+		});
 		return map.keySet().size() == 1;
 	}
 
