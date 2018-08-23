@@ -47,6 +47,7 @@
 		<module>singleton</module>
 		<module>template-method</module>
 		<module>builder</module>
+		<module>proxy</module>
 	</modules>
 	<build>
 		<plugins>
