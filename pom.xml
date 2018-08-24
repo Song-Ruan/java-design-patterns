@@ -48,6 +48,7 @@
 		<module>template-method</module>
 		<module>builder</module>
 		<module>proxy</module>
+		<module>prototype</module>
 	</modules>
 	<build>
 		<plugins>
