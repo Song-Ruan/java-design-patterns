@@ -49,6 +49,7 @@
 		<module>proxy</module>
 		<module>prototype</module>
     <module>mediator</module>
+    <module>command</module>
   </modules>
 	<build>
 		<plugins>
