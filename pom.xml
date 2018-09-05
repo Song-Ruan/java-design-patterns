@@ -50,6 +50,7 @@
 		<module>prototype</module>
     <module>mediator</module>
     <module>command</module>
+    <module>chain-of-responsibility</module>
   </modules>
 	<build>
 		<plugins>
