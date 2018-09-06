@@ -51,6 +51,7 @@
     <module>mediator</module>
     <module>command</module>
     <module>chain-of-responsibility</module>
+    <module>decorator</module>
   </modules>
 	<build>
 		<plugins>
