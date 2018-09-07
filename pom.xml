@@ -52,6 +52,7 @@
     <module>command</module>
     <module>chain-of-responsibility</module>
     <module>decorator</module>
+    <module>strategy</module>
   </modules>
 	<build>
 		<plugins>
