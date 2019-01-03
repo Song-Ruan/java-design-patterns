@@ -1,0 +1,2 @@
+add feature 2
+from feature_2
